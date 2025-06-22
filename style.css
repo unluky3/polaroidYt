@@ -1,6 +1,13 @@
 :root {
   height: 100%;
 }
+::-moz-placeholder,
+:-ms-input-placeholder,
+::placeholder {
+  color: #edede9;
+  font-size: 16px;
+  text-align: center;
+}
 body {
   height: 100%;
   margin: 0px;
